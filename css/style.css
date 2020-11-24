@@ -140,10 +140,10 @@ body {
 /*================================= END ГЕРОЙ  =========================*/
 
 /*=================================  ОСОБЕННОСТИ  =========================*/
-}
+
 .features-title {
-        display: none;
-  }
+  display: none;
+}
 .features-names {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -169,98 +169,98 @@ body {
 
 /*=================================  ЧЕМ МЫ ЗАНИМАЕМСЯ  =========================*/
 .occupation-title {
-font-family: 'Roboto', sans-serif;
-font-weight: bold;
-font-size: 36px;
-line-height: 1.167;
-text-align: center;
-letter-spacing: 0.03em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-color:var(--primery-text-color);
+  color: var(--primery-text-color);
 }
 /*=================================  END ЧЕМ МЫ ЗАНИМАЕМСЯ  =========================*/
 
 /*=================================  НАША КОМАНДА  =========================*/
 .team {
-    background-color: var(--section-background-color);
+  background-color: var(--section-background-color);
 }
 
 .team-title {
-font-family: 'Roboto', sans-serif;
-font-weight: bold;
-font-size: 36px;
-line-height: 1.167;
-text-align: center;
-letter-spacing: 0.03em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-color: var(--primery-text-color);
+  color: var(--primery-text-color);
 }
 .team-employee {
-font-family: 'Roboto', sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.188;
-/* identical to box height */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  /* identical to box height */
 
-letter-spacing: 0.03em;
-color: var(--primery-text-color);
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
 }
 .team-profession {
-font-family: Roboto;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.188;
-/* identical to box height */
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.188;
+  /* identical to box height */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: var(--secondary-text-color);
+  color: var(--secondary-text-color);
 }
 /*=================================  END НАША КОМАНДА  =========================*/
 
 /*=================================  ФУТЕР  =========================*/
 .footer {
-    background-color: var(--footer-background-color);
-    }
+  background-color: var(--footer-background-color);
+}
 .footer a {
-    text-decoration: none;
+  text-decoration: none;
 }
 .footer-logotype {
-font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.192;
-/* identical to box height */
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  /* identical to box height */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: var(--accent-color-footer);
+  color: var(--accent-color-footer);
 }
 .footer-maps {
-    font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.714;
-/* or 171% */
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  /* or 171% */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: var(--accent-color-footer);
+  color: var(--accent-color-footer);
 }
 .footer-mail,
-.footer-tel  {
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.714;
-/* or 171% */
+.footer-tel {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  /* or 171% */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: var(--address-color-footer);
+  color: var(--address-color-footer);
 }
 
 /*=================================  END ФУТЕР  =========================*/
@@ -268,3 +268,50 @@ color: var(--address-color-footer);
 /*=================================  ПОРТФОЛИО  =========================*/
 
 /*=================================  ПОРТФОЛИО КАТЕГОРИИ  =========================*/
+.category-btn-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--primery-text-color);
+}
+.category-btn-title:hover,
+.category-btn-title:focus,
+.category-btn-title:active {
+  color: var(--button-color-title);
+  background-color: var(--button-background-color);
+}
+/*=================================  END ПОРТФОЛИО КАТЕГОРИИ  =========================*/
+
+/*=================================  ПОРТФОЛИО УСЛУГИ  =========================*/
+.services {
+  display: none;
+}
+.services-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: var(--primery-text-color);
+}
+.services-name {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+}
+/*=================================  END ПОРТФОЛИО УСЛУГИ  =========================*/
