@@ -89,7 +89,7 @@ body {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color: var(--primery-text-color);
+  color: var(--secondary-text-color);
 }
 .header-mail:hover,
 .header-mail:focus,
